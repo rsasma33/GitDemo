@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="43" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-09T23:55:54 IST" name="Loan Department" finished-at="2022-03-09T23:55:55 IST" duration-ms="383">
+    <groups>
+      <group name="smoke">
+        <method signature="newday1.Demo()[pri:0, instance:test.newday1@4bb33f74]" name="Demo" class="test.newday1"/>
+        <method signature="newday3.menu()[pri:0, instance:test.newday3@4a7f959b]" name="menu" class="test.newday3"/>
+        <method signature="testday1.APILoginHomeLoan3()[pri:0, instance:test.testday1@25fb8912]" name="APILoginHomeLoan3" class="test.testday1"/>
+        <method signature="newday3.menu()[pri:0, instance:test.newday3@37d4349f]" name="menu" class="test.newday3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-03-09T23:55:54 IST" name="Personal Loan" finished-at="2022-03-09T23:55:54 IST" duration-ms="124">
+      <class name="test.newday2">
+        <test-method is-config="true" signature="prerequisit()[pri:0, instance:test.newday2@3e84448c]" started-at="2022-03-09T23:55:54 IST" name="prerequisit" finished-at="2022-03-09T23:55:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisit -->
+        <test-method signature="menu()[pri:0, instance:test.newday2@3e84448c]" started-at="2022-03-09T23:55:54 IST" name="menu" finished-at="2022-03-09T23:55:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menu -->
+        <test-method is-config="true" signature="leastPriority1()[pri:0, instance:test.newday2@3e84448c]" started-at="2022-03-09T23:55:54 IST" name="leastPriority1" finished-at="2022-03-09T23:55:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leastPriority1 -->
+      </class> <!-- test.newday2 -->
+      <class name="test.newday3">
+        <test-method signature="menu()[pri:0, instance:test.newday3@4a7f959b]" started-at="2022-03-09T23:55:54 IST" name="menu" finished-at="2022-03-09T23:55:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menu -->
+        <test-method is-config="true" signature="leastPriority()[pri:0, instance:test.newday3@4a7f959b]" started-at="2022-03-09T23:55:54 IST" name="leastPriority" finished-at="2022-03-09T23:55:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leastPriority -->
+      </class> <!-- test.newday3 -->
+      <class name="test.newday1">
+        <test-method signature="Demo()[pri:0, instance:test.newday1@4bb33f74]" started-at="2022-03-09T23:55:54 IST" name="Demo" finished-at="2022-03-09T23:55:54 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo1(java.lang.String,java.lang.String)[pri:0, instance:test.newday1@4bb33f74]" started-at="2022-03-09T23:55:54 IST" name="Demo1" data-provider="getData" finished-at="2022-03-09T23:55:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUserdata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="Demo1(java.lang.String,java.lang.String)[pri:0, instance:test.newday1@4bb33f74]" started-at="2022-03-09T23:55:54 IST" name="Demo1" data-provider="getData" finished-at="2022-03-09T23:55:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUserdata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="Demo1(java.lang.String,java.lang.String)[pri:0, instance:test.newday1@4bb33f74]" started-at="2022-03-09T23:55:54 IST" name="Demo1" data-provider="getData" finished-at="2022-03-09T23:55:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUserdata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- test.newday1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-03-09T23:55:55 IST" name="Car Loan" finished-at="2022-03-09T23:55:55 IST" duration-ms="30">
+      <class name="test.testday1">
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:test.testday1@25fb8912]" started-at="2022-03-09T23:55:55 IST" name="APILoginHomeLoan" finished-at="2022-03-09T23:55:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method signature="APILoginHomeLoan1()[pri:0, instance:test.testday1@25fb8912]" started-at="2022-03-09T23:55:55 IST" name="APILoginHomeLoan1" finished-at="2022-03-09T23:55:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan1 -->
+        <test-method signature="APILoginHomeLoan2()[pri:0, instance:test.testday1@25fb8912]" started-at="2022-03-09T23:55:55 IST" name="APILoginHomeLoan2" finished-at="2022-03-09T23:55:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan2 -->
+        <test-method signature="APILoginHomeLoan3()[pri:0, instance:test.testday1@25fb8912]" started-at="2022-03-09T23:55:55 IST" name="APILoginHomeLoan3" finished-at="2022-03-09T23:55:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan3 -->
+        <test-method signature="APILoginHomeLoan4()[pri:0, instance:test.testday1@25fb8912]" started-at="2022-03-09T23:55:55 IST" name="APILoginHomeLoan4" finished-at="2022-03-09T23:55:55 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan4 -->
+        <test-method signature="WebLoginHomeloan()[pri:0, instance:test.testday1@25fb8912]" started-at="2022-03-09T23:55:55 IST" name="WebLoginHomeloan" finished-at="2022-03-09T23:55:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeloan -->
+      </class> <!-- test.testday1 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2022-03-09T23:55:55 IST" name="Home Loan" finished-at="2022-03-09T23:55:55 IST" duration-ms="6">
+      <class name="test.testday2">
+        <test-method signature="MobileLoginHomeLoan2()[pri:0, instance:test.testday2@54bff557]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan2" finished-at="2022-03-09T23:55:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan2 -->
+      </class> <!-- test.testday2 -->
+    </test> <!-- Home Loan -->
+    <test started-at="2022-03-09T23:55:55 IST" name="Mobile Loan" finished-at="2022-03-09T23:55:55 IST" duration-ms="49">
+      <class name="test.testday2">
+        <test-method signature="MobileLoginHomeLoan10()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan10" finished-at="2022-03-09T23:55:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan10 -->
+        <test-method signature="MobileLoginHomeLoan2()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan2" finished-at="2022-03-09T23:55:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan2 -->
+        <test-method signature="MobileLoginHomeLoan3()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan3" finished-at="2022-03-09T23:55:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan3 -->
+        <test-method signature="MobileLoginHomeLoan4()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan4" finished-at="2022-03-09T23:55:55 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan4 -->
+        <test-method signature="MobileLoginHomeLoan5()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan5" finished-at="2022-03-09T23:55:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan5 -->
+        <test-method signature="MobileLoginHomeLoan6()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan6" finished-at="2022-03-09T23:55:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan6 -->
+        <test-method signature="MobileLoginHomeLoan7()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan7" finished-at="2022-03-09T23:55:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan7 -->
+        <test-method signature="MobileLoginHomeLoan8()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan8" finished-at="2022-03-09T23:55:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan8 -->
+        <test-method signature="MobileLoginHomeLoan9()[pri:0, instance:test.testday2@5b03b9fe]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan9" finished-at="2022-03-09T23:55:55 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan9 -->
+      </class> <!-- test.testday2 -->
+      <class name="test.newday3">
+        <test-method signature="menu()[pri:0, instance:test.newday3@37d4349f]" started-at="2022-03-09T23:55:55 IST" name="menu" finished-at="2022-03-09T23:55:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menu -->
+        <test-method is-config="true" signature="leastPriority()[pri:0, instance:test.newday3@37d4349f]" started-at="2022-03-09T23:55:55 IST" name="leastPriority" finished-at="2022-03-09T23:55:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leastPriority -->
+      </class> <!-- test.newday3 -->
+    </test> <!-- Mobile Loan -->
+    <test started-at="2022-03-09T23:55:55 IST" name="API Loan" finished-at="2022-03-09T23:55:55 IST" duration-ms="10">
+      <class name="test.testday1">
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.testday1@2ea41516]" started-at="2022-03-09T23:55:55 IST" name="MobileLoginHomeLoan" finished-at="2022-03-09T23:55:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebLoginHomeloan()[pri:0, instance:test.testday1@2ea41516]" started-at="2022-03-09T23:55:55 IST" name="WebLoginHomeloan" finished-at="2022-03-09T23:55:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeloan -->
+      </class> <!-- test.testday1 -->
+      <class name="test.newday3">
+        <test-method is-config="true" signature="prerequisit()[pri:0, instance:test.newday3@37d4349f]" started-at="2022-03-09T23:55:55 IST" name="prerequisit" finished-at="2022-03-09T23:55:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisit -->
+      </class> <!-- test.newday3 -->
+      <class name="test.newday1">
+        <test-method is-config="true" signature="prerequisit()[pri:0, instance:test.newday1@4bb33f74]" started-at="2022-03-09T23:55:54 IST" name="prerequisit" finished-at="2022-03-09T23:55:54 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisit -->
+      </class> <!-- test.newday1 -->
+    </test> <!-- API Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
