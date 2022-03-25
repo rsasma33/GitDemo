@@ -53,4 +53,29 @@ public class testday1 {
 	{
 		System.out.println("APIHomeLoan4");
 	}
+	
+	
+	@Test
+	public void WebLoginHomeloanA()
+	
+	{
+		System.out.println("WebHomeLoan");
+		
+	}
+	
+	
+	@Test
+	public void WebLoginHomeloanB()
+	
+	{
+		System.out.println("WebHomeLoan");
+		
+	}
+	@Test
+	public void APILoginHomeLoan41()
+	
+	{
+		System.out.println("APIHomeLoan4");
+	}
 }
+

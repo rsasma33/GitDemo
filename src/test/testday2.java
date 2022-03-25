@@ -14,6 +14,13 @@ public class testday2 {
 	}
 	
 	@Test
+	public void APILoginHomeLoan43()
+	
+	{
+		System.out.println("APIHomeLoan4");
+	}
+	
+	@Test
 	public void MobileLoginHomeLoan2()
 	
 	{
