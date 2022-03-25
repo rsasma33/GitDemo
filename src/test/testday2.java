@@ -73,6 +73,8 @@ public class testday2 {
 	
 	{
 		System.out.println("MobileHomeLoan7");
+		System.out.println("MobileHomeLoan7");
+		System.out.println("Merging Done");
 	}
 	
 	@Test
