@@ -11,6 +11,8 @@ public class newday3 {
 	 public void prerequisit()
 	 {
 		System.out.println("i am the LEAST Important thing");
+		System.out.println("i am the LEAST Important thing1");
+		System.out.println("i am the LEAST Important thing2");
 	 }
 	
 
@@ -28,6 +30,7 @@ public void leastPriority()
 
 {
 		System.out.println("i will go at the LAST");
+		System.out.println("i will go at the LAST always");
 }
 
 }
