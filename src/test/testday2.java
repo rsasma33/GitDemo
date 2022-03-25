@@ -59,6 +59,13 @@ public class testday2 {
 	
 	{
 		System.out.println("MobileHomeLoan6");
+		System.out.println("MobileHomeLoan6");
+		System.out.println("MobileHomeLoan6");
+		System.out.println("MobileHomeLoan6");
+		System.out.println("MobileHomeLoan6");
+		System.out.println("MobileHomeLoan6");
+		System.out.println("MobileHomeLoan6");
+		
 	}
 	
 	@Test

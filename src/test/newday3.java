@@ -22,6 +22,11 @@ public class newday3 {
 		
 		System.out.println("Happy Day");
 
+		System.out.println("Happy Day");
+		System.out.println("Happy Day");
+		System.out.println("Happy Day");
+		System.out.println("Happy Day");
+		System.out.println("Happy Day");
 	}
 	
 	@AfterTest
