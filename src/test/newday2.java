@@ -11,6 +11,8 @@ public class newday2 {
 		// TODO Auto-generated method stub
 		
 		System.out.println("great DAY");
+		System.out.println("great DAY1");
+		System.out.println("great DAY2");
 
 	}
 	
